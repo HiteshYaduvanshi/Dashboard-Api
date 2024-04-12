@@ -9,7 +9,7 @@ const cors = require('cors')
 
 
 const corsOptions = {
-  origin: 'https://employee-dashboard-eight.vercel.app/',
+  origin: '*',
   methods: 'GET, POST, PUT, DELETE, PATCH, HEAD',
   credentials: true,
 }
