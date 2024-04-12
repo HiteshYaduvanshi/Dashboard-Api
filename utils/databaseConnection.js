@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const URL = "mongodb://127.0.0.1:27017/dashboard"
+const URL = "mongodb+srv://hiteshyaduvanshi85:Defaulter@cluster0.kuasrtw.mongodb.net/dashboard?retryWrites=true&w=majority&appName=Cluster0"
 
 const connectDatabase = async ()=>{
     try {
